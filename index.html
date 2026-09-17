@@ -144,7 +144,7 @@
     <div class="header-texto">
       <h1>KA'AGUY SYRY SAKA</h1>
       <div class="subt">Comisión Vecinal · Ciudad de Ñemby</div>
-      <div class="estado" id="textoEstado">Datos actualizados el 30/08/2026 06:29 p. m.</div>
+      <div class="estado" id="textoEstado">Datos actualizados el 17/09/2026 04:48 p. m.</div>
     </div>
     <div class="admin-caja">
       <span class="badge-admin solo-admin" style="display: inline-block;" id="badgeAdmin">Modo administrador</span>
@@ -157,10 +157,10 @@
 
 <nav>
   <div class="tabs">
-    <button class="tab activo" data-vista="resumen">Resumen</button>
+    <button class="tab" data-vista="resumen">Resumen</button>
     <button class="tab" data-vista="personas">Personas</button>
     <button class="tab" data-vista="aportes">Aportes</button>
-    <button class="tab" data-vista="trabajos">Trabajos</button>
+    <button class="tab activo" data-vista="trabajos">Trabajos</button>
     <button class="tab" data-vista="representantes">Representantes</button>
   </div>
 </nav>
@@ -179,10 +179,10 @@
   </div>
 
   <!-- ===== RESUMEN ===== -->
-  <section class="vista activa" id="vista-resumen">
+  <section class="vista" id="vista-resumen">
     <div class="grid-3">
       <div class="card stat fondo">
-        <div class="valor mono" id="rFondo">Gs. 532.000</div>
+        <div class="valor mono" id="rFondo">Gs. 431.999</div>
         <div class="etiqueta">Fondo total disponible</div>
       </div>
       <div class="card stat aportes">
@@ -190,7 +190,7 @@
         <div class="etiqueta">Total aportado</div>
       </div>
       <div class="card stat trabajos">
-        <div class="valor mono" id="rTrabajos">Gs. 218.000</div>
+        <div class="valor mono" id="rTrabajos">Gs. 318.001</div>
         <div class="etiqueta">Total gastado en trabajos</div>
       </div>
     </div>
@@ -199,7 +199,7 @@
       <div class="tabla-scroll">
         <table>
           <thead><tr><th>Fecha</th><th>Movimiento</th><th class="num">Monto</th></tr></thead>
-          <tbody id="tblMovimientos"><tr><td>29/08/2026</td><td>Aporte de Jorge Aguero</td><td class="num pos">+Gs. 400.000</td></tr><tr><td>29/08/2026</td><td>Aporte de Christian</td><td class="num pos">+Gs. 50.000</td></tr><tr><td>29/08/2026</td><td>Aporte de Adolfo</td><td class="num pos">+Gs. 50.000</td></tr><tr><td>29/08/2026</td><td>Aporte de Andy</td><td class="num pos">+Gs. 50.000</td></tr><tr><td>29/08/2026</td><td>Aporte de Javier</td><td class="num pos">+Gs. 50.000</td></tr><tr><td>29/08/2026</td><td>Aporte de Victor</td><td class="num pos">+Gs. 50.000</td></tr><tr><td>29/08/2026</td><td>Aporte de Fátima</td><td class="num pos">+Gs. 50.000</td></tr><tr><td>29/08/2026</td><td>Aporte de Jessica</td><td class="num pos">+Gs. 50.000</td></tr><tr><td>29/08/2026</td><td>Reparación de alumbrado</td><td class="num neg">Gs. -150.000</td></tr><tr><td>29/08/2026</td><td>Cambio de foco Robado (Se compró un foco económico para prueba)</td><td class="num neg">Gs. -23.000</td></tr><tr><td>29/08/2026</td><td>Cambio de foco quemado (compra del foco)</td><td class="num neg">Gs. -45.000</td></tr></tbody>
+          <tbody id="tblMovimientos"><tr><td>16/09/2026</td><td>Mantenimiento desmalezadora + combustible</td><td class="num neg">Gs. -100.001</td></tr><tr><td>29/08/2026</td><td>Aporte de Jorge Aguero</td><td class="num pos">+Gs. 400.000</td></tr><tr><td>29/08/2026</td><td>Aporte de Christian</td><td class="num pos">+Gs. 50.000</td></tr><tr><td>29/08/2026</td><td>Aporte de Adolfo</td><td class="num pos">+Gs. 50.000</td></tr><tr><td>29/08/2026</td><td>Aporte de Andy</td><td class="num pos">+Gs. 50.000</td></tr><tr><td>29/08/2026</td><td>Aporte de Javier</td><td class="num pos">+Gs. 50.000</td></tr><tr><td>29/08/2026</td><td>Aporte de Victor</td><td class="num pos">+Gs. 50.000</td></tr><tr><td>29/08/2026</td><td>Aporte de Fátima</td><td class="num pos">+Gs. 50.000</td></tr><tr><td>29/08/2026</td><td>Aporte de Jessica</td><td class="num pos">+Gs. 50.000</td></tr><tr><td>29/08/2026</td><td>Reparación de alumbrado</td><td class="num neg">Gs. -150.000</td></tr><tr><td>29/08/2026</td><td>Cambio de foco Robado (Se compró un foco económico para prueba)</td><td class="num neg">Gs. -23.000</td></tr><tr><td>29/08/2026</td><td>Cambio de foco quemado (compra del foco)</td><td class="num neg">Gs. -45.000</td></tr></tbody>
         </table>
       </div>
       <div class="vacio" id="movVacio" style="display:none;">Todavía no hay aportes ni trabajos registrados.</div>
@@ -278,7 +278,7 @@
   </section>
 
   <!-- ===== TRABAJOS ===== -->
-  <section class="vista" id="vista-trabajos">
+  <section class="vista activa" id="vista-trabajos">
     <div class="card solo-admin">
       <h2 id="tituloFormTrabajo">Registrar un trabajo realizado</h2>
       <p class="seccion-desc">El monto se descuenta directamente del fondo total, no hace falta ningún paso extra.</p>
@@ -311,7 +311,7 @@
       <div class="tabla-scroll">
         <table>
           <thead><tr><th>Fecha</th><th>Descripción</th><th>Responsable</th><th class="num">Monto</th><th class="col-admin"></th></tr></thead>
-          <tbody id="tblTrabajos"><tr><td>29/08/2026</td><td>Reparación de alumbrado</td><td></td><td class="num neg">-Gs. 150.000</td><td class="col-admin"><button class="btn-mini" onclick="editarTrabajoUI('tr1')">Editar</button><button class="btn-mini eliminar" onclick="eliminarTrabajo('tr1')">Eliminar</button></td></tr><tr><td>29/08/2026</td><td>Cambio de foco Robado (Se compró un foco económico para prueba)</td><td>Christian/Adolfo</td><td class="num neg">-Gs. 23.000</td><td class="col-admin"><button class="btn-mini" onclick="editarTrabajoUI('tr2')">Editar</button><button class="btn-mini eliminar" onclick="eliminarTrabajo('tr2')">Eliminar</button></td></tr><tr><td>29/08/2026</td><td>Cambio de foco quemado (compra del foco)</td><td>Christian/Adolfo</td><td class="num neg">-Gs. 45.000</td><td class="col-admin"><button class="btn-mini" onclick="editarTrabajoUI('mtgbn2f5bhnakf')">Editar</button><button class="btn-mini eliminar" onclick="eliminarTrabajo('mtgbn2f5bhnakf')">Eliminar</button></td></tr></tbody>
+          <tbody id="tblTrabajos"><tr><td>16/09/2026</td><td>Mantenimiento desmalezadora + combustible</td><td>Adolfo/Christian</td><td class="num neg">-Gs. 100.001</td><td class="col-admin"><button class="btn-mini" onclick="editarTrabajoUI('mu5xzgybvko35i')">Editar</button><button class="btn-mini eliminar" onclick="eliminarTrabajo('mu5xzgybvko35i')">Eliminar</button></td></tr><tr><td>29/08/2026</td><td>Reparación de alumbrado</td><td></td><td class="num neg">-Gs. 150.000</td><td class="col-admin"><button class="btn-mini" onclick="editarTrabajoUI('tr1')">Editar</button><button class="btn-mini eliminar" onclick="eliminarTrabajo('tr1')">Eliminar</button></td></tr><tr><td>29/08/2026</td><td>Cambio de foco Robado (Se compró un foco económico para prueba)</td><td>Christian/Adolfo</td><td class="num neg">-Gs. 23.000</td><td class="col-admin"><button class="btn-mini" onclick="editarTrabajoUI('tr2')">Editar</button><button class="btn-mini eliminar" onclick="eliminarTrabajo('tr2')">Eliminar</button></td></tr><tr><td>29/08/2026</td><td>Cambio de foco quemado (compra del foco)</td><td>Christian/Adolfo</td><td class="num neg">-Gs. 45.000</td><td class="col-admin"><button class="btn-mini" onclick="editarTrabajoUI('mtgbn2f5bhnakf')">Editar</button><button class="btn-mini eliminar" onclick="eliminarTrabajo('mtgbn2f5bhnakf')">Eliminar</button></td></tr></tbody>
         </table>
       </div>
       <div class="vacio" id="trabajosVacio" style="display:none;">Todavía no hay trabajos registrados.</div>
@@ -372,7 +372,7 @@
 
 <!-- Datos publicados: esto es lo que se actualiza cada vez que se descarga una nueva versión -->
 <script type="application/json" id="datosGuardados">
-{"personas":[{"id":"p1","nombre":"Jorge Aguero","fechaIngreso":"2026-08-30"},{"id":"p2","nombre":"Christian","fechaIngreso":"2026-08-30"},{"id":"p3","nombre":"Adolfo","fechaIngreso":"2026-08-30"},{"id":"p4","nombre":"Andy","fechaIngreso":"2026-08-30"},{"id":"p5","nombre":"Javier","fechaIngreso":"2026-08-30"},{"id":"p6","nombre":"Victor","fechaIngreso":"2026-08-30"},{"id":"p7","nombre":"Fátima","fechaIngreso":"2026-08-30"},{"id":"p8","nombre":"Jessica","fechaIngreso":"2026-08-30"},{"id":"p9","nombre":"Gustavo","fechaIngreso":"2026-08-30"},{"id":"p10","nombre":"David","fechaIngreso":"2026-08-30"},{"id":"p11","nombre":"Pedro","fechaIngreso":"2026-08-30"}],"aportes":[{"id":"ap1","persona":"Jorge Aguero","monto":400000,"fecha":"2026-08-30","concepto":""},{"id":"ap2","persona":"Christian","monto":50000,"fecha":"2026-08-30","concepto":""},{"id":"ap3","persona":"Adolfo","monto":50000,"fecha":"2026-08-30","concepto":""},{"id":"ap4","persona":"Andy","monto":50000,"fecha":"2026-08-30","concepto":""},{"id":"ap5","persona":"Javier","monto":50000,"fecha":"2026-08-30","concepto":""},{"id":"ap6","persona":"Victor","monto":50000,"fecha":"2026-08-30","concepto":""},{"id":"ap7","persona":"Fátima","monto":50000,"fecha":"2026-08-30","concepto":""},{"id":"ap8","persona":"Jessica","monto":50000,"fecha":"2026-08-30","concepto":""}],"trabajos":[{"id":"tr1","descripcion":"Reparación de alumbrado","monto":150000,"fecha":"2026-08-30","responsable":""},{"id":"tr2","descripcion":"Cambio de foco Robado (Se compró un foco económico para prueba)","monto":23000,"fecha":"2026-08-30","responsable":"Christian/Adolfo"},{"id":"mtgbn2f5bhnakf","descripcion":"Cambio de foco quemado (compra del foco)","monto":45000,"fecha":"2026-08-30","responsable":"Christian/Adolfo"}],"representantes":[{"nombre":"Christian Rodrigo Caceres Garcia","cargo":"Presidente","id":"r1"},{"nombre":"Andresa Flor Alcaraz","cargo":"Vicepresidente","id":"r2"},{"nombre":"Gustavo Portillo Encina","cargo":"Secretario","id":"r3"},{"nombre":"Francisco Adolfo Aguero","cargo":"Pro-secretario","id":"r4"},{"nombre":"Jorge Antonio Agüero Silvani","cargo":"Tesorero","id":"r5"},{"nombre":"Francisco Javier Salinas Benitez","cargo":"Pro-Tesorero","id":"r6"},{"nombre":"Yolanda Arza Zaracho Aguayo","cargo":"Síndico Titular","id":"r7"},{"nombre":"Lidia Arevalos","cargo":"Síndico Suplente","id":"r8"},{"nombre":"Yessica Andrea Benegas Martinez","cargo":"Miembro Titular","id":"r9"},{"nombre":"Diana Soledad Lezcano Romero","cargo":"Miembro Titular","id":"r10"},{"nombre":"Crismilda Villagra Ruiz","cargo":"Miembro Titular","id":"r11"},{"nombre":"Maria Elba Gimenez Roa","cargo":"Miembro Suplente","id":"r12"},{"nombre":"Noelia Isabel Collar Rodriguez","cargo":"Miembro Suplente","id":"r13"},{"nombre":"Pedro Vega Baez","cargo":"Miembro Suplente","id":"r14"}],"generadoEl":"2026-08-30T21:29:41.835Z"}
+{"personas":[{"id":"p1","nombre":"Jorge Aguero","fechaIngreso":"2026-08-30"},{"id":"p2","nombre":"Christian","fechaIngreso":"2026-08-30"},{"id":"p3","nombre":"Adolfo","fechaIngreso":"2026-08-30"},{"id":"p4","nombre":"Andy","fechaIngreso":"2026-08-30"},{"id":"p5","nombre":"Javier","fechaIngreso":"2026-08-30"},{"id":"p6","nombre":"Victor","fechaIngreso":"2026-08-30"},{"id":"p7","nombre":"Fátima","fechaIngreso":"2026-08-30"},{"id":"p8","nombre":"Jessica","fechaIngreso":"2026-08-30"},{"id":"p9","nombre":"Gustavo","fechaIngreso":"2026-08-30"},{"id":"p10","nombre":"David","fechaIngreso":"2026-08-30"},{"id":"p11","nombre":"Pedro","fechaIngreso":"2026-08-30"}],"aportes":[{"id":"ap1","persona":"Jorge Aguero","monto":400000,"fecha":"2026-08-30","concepto":""},{"id":"ap2","persona":"Christian","monto":50000,"fecha":"2026-08-30","concepto":""},{"id":"ap3","persona":"Adolfo","monto":50000,"fecha":"2026-08-30","concepto":""},{"id":"ap4","persona":"Andy","monto":50000,"fecha":"2026-08-30","concepto":""},{"id":"ap5","persona":"Javier","monto":50000,"fecha":"2026-08-30","concepto":""},{"id":"ap6","persona":"Victor","monto":50000,"fecha":"2026-08-30","concepto":""},{"id":"ap7","persona":"Fátima","monto":50000,"fecha":"2026-08-30","concepto":""},{"id":"ap8","persona":"Jessica","monto":50000,"fecha":"2026-08-30","concepto":""}],"trabajos":[{"id":"tr1","descripcion":"Reparación de alumbrado","monto":150000,"fecha":"2026-08-30","responsable":""},{"id":"tr2","descripcion":"Cambio de foco Robado (Se compró un foco económico para prueba)","monto":23000,"fecha":"2026-08-30","responsable":"Christian/Adolfo"},{"id":"mtgbn2f5bhnakf","descripcion":"Cambio de foco quemado (compra del foco)","monto":45000,"fecha":"2026-08-30","responsable":"Christian/Adolfo"},{"id":"mu5xzgybvko35i","descripcion":"Mantenimiento desmalezadora + combustible","monto":100001,"fecha":"2026-09-17","responsable":"Adolfo/Christian"}],"representantes":[{"nombre":"Christian Rodrigo Caceres Garcia","cargo":"Presidente","id":"r1"},{"nombre":"Andresa Flor Alcaraz","cargo":"Vicepresidente","id":"r2"},{"nombre":"Gustavo Portillo Encina","cargo":"Secretario","id":"r3"},{"nombre":"Francisco Adolfo Aguero","cargo":"Pro-secretario","id":"r4"},{"nombre":"Jorge Antonio Agüero Silvani","cargo":"Tesorero","id":"r5"},{"nombre":"Francisco Javier Salinas Benitez","cargo":"Pro-Tesorero","id":"r6"},{"nombre":"Yolanda Arza Zaracho Aguayo","cargo":"Síndico Titular","id":"r7"},{"nombre":"Lidia Arevalos","cargo":"Síndico Suplente","id":"r8"},{"nombre":"Yessica Andrea Benegas Martinez","cargo":"Miembro Titular","id":"r9"},{"nombre":"Diana Soledad Lezcano Romero","cargo":"Miembro Titular","id":"r10"},{"nombre":"Crismilda Villagra Ruiz","cargo":"Miembro Titular","id":"r11"},{"nombre":"Maria Elba Gimenez Roa","cargo":"Miembro Suplente","id":"r12"},{"nombre":"Noelia Isabel Collar Rodriguez","cargo":"Miembro Suplente","id":"r13"},{"nombre":"Pedro Vega Baez","cargo":"Miembro Suplente","id":"r14"}],"generadoEl":"2026-09-17T19:48:13.331Z"}
 </script>
 
 <script>
@@ -726,6 +726,7 @@
   actualizarUIAdmin();
   render();
 </script>
+
 
 
 </body></html>
